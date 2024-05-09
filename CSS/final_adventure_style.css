@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url("../images/Forest Battle Background, Nauris Amatnieks.jpg");
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.container {
+	width: 800px;
+	max-width: 80%;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0 0 5px 2px;
+}
+
+.btn-grid {
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	gap: 10px;
+	margin-top: 20px;
+}
+
+.btn {
+	background-color: lightgrey;
+	padding: 5px 5px;
+}
+
