@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Text Adventure</title>
+		<link href="../CSS/final_adventure_style.css" rel="stylesheet">
+		<script src="../Javascript/final_adventure.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="container">
+			<div id="text">You have been chosen as a hero! Choose your class</div>
+			<div id="img-container">
+				<img id="knight-img" src="../images/knight.jpg">
+				<img id="mage-img" src="../images/mage.jpeg">
+				<div id="slime-container">
+					<img id="slime-img" src="../images/slime.jpg" style="display: none;">
+				</div>
+			</div>
+
+			<div id="option-buttons" class="btn-grid">
+				<button class="btn" onclick="chooseCharacter('knight')">Knight</button>
+				<button class="btn" onclick="chooseCharacter('mage')">Mage</button>
+			</div>
+		
+		</div>
+	</body>
+</html>
