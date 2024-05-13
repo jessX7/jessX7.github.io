@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Almendra', serif;
+	color: white;
+	font-size: 42px;
+	background-image: url("../images/Forest Battle Background, Nauris Amatnieks.jpg");
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.container {
+	width: 800px;
+	max-width: 80%;
+	padding: 30px;
+	text-align: center;
+}
+
+.btn {
+	font-family: 'Press Start 2P', cursive;
+	font-weight: normal;
+	font-size: 13px;
+	justify-content: center;
+	background-color: lightgrey;
+	padding: 10px 5px;
+	margin-left: 20px;
+}
+
+.btn a {
+    text-decoration: none; 
+    color: black; 
+}
